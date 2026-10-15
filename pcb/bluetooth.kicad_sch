@@ -2248,6 +2248,16 @@
 		)
 		(uuid "16f59f61-c10a-4fa6-903e-886fefd935a1")
 	)
+	(label "BT_DEC"
+		(at 116.84 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "610426a8-aac0-4d18-ab12-62d726a0cc6e")
+	)
 	(label "ANT 1 OUT"
 		(at 146.05 96.52 0)
 		(effects

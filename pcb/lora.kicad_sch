@@ -3785,6 +3785,26 @@
 		)
 		(uuid "1aaf5048-3e92-40ed-9c2a-cc3e9eca91b7")
 	)
+	(label "VBAT_DEC"
+		(at 109.22 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a090037-2a91-40af-b948-a2117ac652de")
+	)
+	(label "VBAT_DEC"
+		(at 102.87 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f562022-2793-48e4-b2bb-e7d8aabc1e46")
+	)
 	(label "DIO3"
 		(at 48.26 74.93 0)
 		(effects
