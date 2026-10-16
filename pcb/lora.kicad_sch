@@ -674,6 +674,152 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ECS-TXO-20CSMV4:ECS-TXO-20CSMV4-320-AY-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ECS-TXO-20CSMV4-320-AY-TR"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Oscillator_SMD:Oscillator_SMD_ECS_2016"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-20CSMV4.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ECS-TXO-20CSMV4-320-AY-TR_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Filter:0900FM15K0039"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -951,228 +1097,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Oscillator:KT2520K-T"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -4.064 6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KT2520K-T"
-				(at 4.318 6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_Kyocera_2520-6Pin_2.5x2.0mm"
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10-60MHz Temperature Compensated Crystal Oscillator, Kyocera 2520"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "tcxo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*SMD*Kyocera*2.5x2.0mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KT2520K-T_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 -0.508) (xy -3.81 -0.508) (xy -3.81 0.762) (xy -3.048 0.762) (xy -3.048 -0.508) (xy -2.286 -0.508)
-						(xy -2.286 0.762) (xy -1.524 0.762) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KT2520K-T_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2847,6 +2771,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 85.09) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1283e2dc-416e-4658-a221-345392931fb0")
+	)
+	(wire
+		(pts
 			(xy 252.73 106.68) (xy 260.35 106.68)
 		)
 		(stroke
@@ -2907,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 71.12 85.09)
+			(xy 69.85 85.09) (xy 71.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2954,6 +2888,16 @@
 			(type default)
 		)
 		(uuid "233c81ae-8518-4742-9d84-8fbe01109986")
+	)
+	(wire
+		(pts
+			(xy 59.69 85.09) (xy 64.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24513aa4-3e19-457a-a7bf-06ff5ea2f25c")
 	)
 	(wire
 		(pts
@@ -3044,16 +2988,6 @@
 			(type default)
 		)
 		(uuid "334f29d5-c00c-4e39-84d5-210d1a094c8c")
-	)
-	(wire
-		(pts
-			(xy 53.34 93.98) (xy 53.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "363e502a-b710-473a-9255-c28195f70006")
 	)
 	(wire
 		(pts
@@ -3377,16 +3311,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 74.93) (xy 53.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c17d0e-017c-4dd4-b8ed-dd31b0683ea8")
-	)
-	(wire
-		(pts
 			(xy 240.03 106.68) (xy 243.84 106.68)
 		)
 		(stroke
@@ -3587,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 74.93) (xy 53.34 74.93)
+			(xy 64.77 80.01) (xy 59.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3687,16 +3611,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 85.09) (xy 63.5 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0962dc-a5b0-4cd6-8aaa-8d490e8207e0")
-	)
-	(wire
-		(pts
 			(xy 109.22 71.12) (xy 109.22 72.39)
 		)
 		(stroke
@@ -3704,6 +3618,16 @@
 			(type default)
 		)
 		(uuid "f12d23ed-e0d1-4c36-beab-baf72128490c")
+	)
+	(wire
+		(pts
+			(xy 38.1 85.09) (xy 38.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f177519c-dbea-4efc-a8df-c72b868b05ed")
 	)
 	(wire
 		(pts
@@ -3806,12 +3730,12 @@
 		(uuid "6f562022-2793-48e4-b2bb-e7d8aabc1e46")
 	)
 	(label "DIO3"
-		(at 48.26 74.93 0)
+		(at 64.77 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "72785a6b-d908-4e30-b4a3-a554ead6333d")
 	)
@@ -5287,7 +5211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 93.98 0)
+		(at 38.1 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5297,7 +5221,7 @@
 		(dnp no)
 		(uuid "64a77ea1-89fd-4409-9f1d-7c9d6336870d")
 		(property "Reference" "#PWR040"
-			(at 53.34 100.33 0)
+			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +5232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 97.79 0)
+			(at 38.1 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5318,7 +5242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 93.98 0)
+			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +5253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 93.98 0)
+			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +5264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 93.98 0)
+			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5521,7 +5445,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 66.04 85.09 90)
+		(at 67.31 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5532,7 +5456,7 @@
 		(fields_autoplaced yes)
 		(uuid "715350c4-b400-4c90-b97d-efeb99217d4c")
 		(property "Reference" "R10"
-			(at 66.04 80.01 90)
+			(at 67.31 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5542,7 +5466,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 66.04 82.55 90)
+			(at 67.31 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5552,7 +5476,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 85.09 0)
+			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5563,7 +5487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 85.09 0)
+			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5574,7 +5498,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 66.04 85.09 0)
+			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6467,100 +6391,6 @@
 			(project "pcb"
 				(path "/52b1b5de-c493-4cfe-b90b-d072cb2fb98d/a63ec2f7-32f8-4190-b7fd-dd0d9e74a442"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:KT2520K-T")
-		(at 53.34 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5f68419-a6c5-40ca-be48-eb22e319be4c")
-		(property "Reference" "Y3"
-			(at 46.99 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KT2520K-T"
-			(at 46.99 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Kyocera_2520-6Pin_2.5x2.0mm"
-			(at 50.8 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf"
-			(at 53.34 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10-60MHz Temperature Compensated Crystal Oscillator, Kyocera 2520"
-			(at 53.34 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c753d9b-9b47-4900-b8b6-51a3e703165b")
-		)
-		(pin "6"
-			(uuid "5a50f4ea-8563-4333-ba38-3e5b062d5e49")
-		)
-		(pin "2"
-			(uuid "2a305f2b-7588-490a-a1e3-23b7c8fbab23")
-		)
-		(pin "5"
-			(uuid "d9862a38-74b3-4ff0-9edd-9a48962c10b4")
-		)
-		(pin "3"
-			(uuid "101cf782-57c0-49aa-97fd-131399416241")
-		)
-		(pin "4"
-			(uuid "5cf8ce05-650a-4acd-8ce7-e318c02169da")
-		)
-		(instances
-			(project "pcb"
-				(path "/52b1b5de-c493-4cfe-b90b-d072cb2fb98d/a63ec2f7-32f8-4190-b7fd-dd0d9e74a442"
-					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -7695,6 +7525,91 @@
 			(project "pcb"
 				(path "/52b1b5de-c493-4cfe-b90b-d072cb2fb98d/a63ec2f7-32f8-4190-b7fd-dd0d9e74a442"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECS-TXO-20CSMV4:ECS-TXO-20CSMV4-320-AY-TR")
+		(at 49.53 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffad68a0-9ce1-45fb-bae4-e49156ebb115")
+		(property "Reference" "U7"
+			(at 51.816 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-TXO-20CSMV4-320-AY-TR"
+			(at 56.134 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Oscillator_SMD_ECS_2016"
+			(at 49.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-20CSMV4.pdf"
+			(at 49.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "209abd29-621e-4c10-856b-077d26bea044")
+		)
+		(pin "1"
+			(uuid "ea841021-d361-4726-9864-ccc9afe84b0d")
+		)
+		(pin "2"
+			(uuid "f2bc83ba-194f-437a-b0ce-21dab6bf6a1c")
+		)
+		(pin "4"
+			(uuid "aa86fd8b-54db-4972-94c6-3ee66b98bbae")
+		)
+		(instances
+			(project "pcb"
+				(path "/52b1b5de-c493-4cfe-b90b-d072cb2fb98d/a63ec2f7-32f8-4190-b7fd-dd0d9e74a442"
+					(reference "U7")
 					(unit 1)
 				)
 			)

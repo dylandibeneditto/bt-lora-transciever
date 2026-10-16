@@ -2,5 +2,5 @@
 
 (rule "nRF52840 BGA Escape Clearance"
     (layer outer)
-    (condition "A.insideArea('nrf52_escape')")
+    (condition "A.insideArea('nRF_clearance')")
     (constraint clearance (min 0.09mm)))

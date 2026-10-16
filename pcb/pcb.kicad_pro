@@ -53,20 +53,20 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -673,7 +673,7 @@
         "uuid": "52b1b5de-c493-4cfe-b90b-d072cb2fb98d"
       }
     ],
-    "used_designators": "L1-10,D1-3,#PWR1-80,C1-51,SW1,H1-4,R1-15,J1-8,TP1-15,U1-8,Y1-3,FL1,ANT1-2,LoRa_MISO1,LoRaMOSI1,LoRaSCK1",
+    "used_designators": "L1-10,D1-3,#PWR1-80,C1-51,SW1,H1-4,R1-17,J1-8,TP1-15,U1-8,Y1-3,FL1,ANT1-2,LoRa_MISO1,LoRaMOSI1,LoRaSCK1",
     "variants": []
   },
   "sheets": [

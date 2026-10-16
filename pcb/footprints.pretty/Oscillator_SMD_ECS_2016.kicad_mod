@@ -1,0 +1,115 @@
+(footprint "Oscillator_SMD_ECS_2016"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Surface Mount Oscillator 2.0x1.6mm 4-pad ECS Series")
+	(tags "oscillator tcxo smd 2016")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6ad57393-8ffa-46f8-9cc1-57ad7db805fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_ECS_2016"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caff3713-ed4f-4319-882f-993253c105c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5c29ca7-953f-40e6-8a57-60d1009904b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9757ee20-df9f-4036-b745-4794b6c05d7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.95 0.75)
+		(end 1.95 1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcb84b68-d788-423e-883f-55987b24c8e1")
+	)
+	(fp_line
+		(start 1.95 1.35)
+		(end 1.35 1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62ffc9a0-b4f3-4c20-a967-e4388adf0d10")
+	)
+	(fp_line
+		(start 1.95 1.35)
+		(end 1.95 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d060739d-06a1-4778-904e-4af1aaecf4e9")
+	)
+	(pad "1" smd roundrect
+		(at 1.525 0.825)
+		(size 0.63 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "abec5541-75ff-44f4-af5c-1c71fba318f3")
+	)
+	(pad "2" smd roundrect
+		(at -0.325 0.825)
+		(size 0.63 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "f0928cb0-7b08-4401-8b82-60fe90fc4e64")
+	)
+	(pad "3" smd roundrect
+		(at -0.325 -0.425)
+		(size 0.63 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "3c66254f-4176-4eeb-8aa6-0c2068dc262b")
+	)
+	(pad "4" smd roundrect
+		(at 1.525 -0.425)
+		(size 0.63 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8cbecaf4-5cb2-4210-82fb-870d76096050")
+	)
+	(embedded_fonts no)
+)
