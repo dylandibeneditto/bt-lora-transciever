@@ -7,7 +7,7 @@
 	(title_block
 		(title "915MHz LoRa Modem")
 		(date "2026-10-09")
-		(rev "1")
+		(rev "2")
 		(company "Dylan DiBeneditto")
 	)
 	(lib_symbols
@@ -2592,6 +2592,17 @@
 			)
 		)
 		(uuid "e8f7a4d7-cba6-48ef-a64d-5f37d974579b")
+	)
+	(text "CPWG:\n0.37mm Trace Width\n0.22mm Gap\n~49.9 ohm\n(D_{K} = 4.2 with 7628 prepreg)\n7628 prepreg thickness is 0.2104mm according to JLCPCB\n\nOpening soldermask above the CPWG increases performance\nbut can lead to oxidation of the copper. The difference \nin manufacturing loss tolerance is usually +-2 ohms.\n\nOxidation can corrode the trace and lead to way worse impedance\ncontrol over time, so I'm chosing to go without it."
+		(exclude_from_sim no)
+		(at 92.456 180.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f44a9bd9-22bd-4b44-9198-3d462984266c")
 	)
 	(text "Programmable DC voltage [1.6V, 3.3V]"
 		(exclude_from_sim no)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "2.4GHz BT and 915MHz LoRa Transciever")
 		(date "2026-10-09")
-		(rev "1")
+		(rev "2")
 		(company "Dylan DiBeneditto")
 	)
 	(lib_symbols

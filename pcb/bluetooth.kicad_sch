@@ -7,6 +7,7 @@
 	(title_block
 		(title "Bluetooth")
 		(date "2026-10-09")
+		(rev "2")
 		(company "Dylan DiBeneditto")
 	)
 	(lib_symbols
@@ -1498,6 +1499,17 @@
 			(type none)
 		)
 		(uuid "f22b4440-e1d1-4c38-8049-c77e1aca26de")
+	)
+	(text "CPWG:\n0.37mm Trace Width\n0.22mm Gap\n~49.9 ohm\n(D_{K} = 4.2 with 7628 prepreg)\n7628 prepreg thickness is 0.2104 according to JLCPCB"
+		(exclude_from_sim no)
+		(at 202.946 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13c5d10b-ebde-4059-bb4e-c35eb98fd1ee")
 	)
 	(text "RF"
 		(exclude_from_sim no)
