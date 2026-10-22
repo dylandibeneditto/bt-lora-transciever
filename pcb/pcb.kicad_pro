@@ -267,7 +267,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2"
+      "sch_revision": "3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -675,7 +675,7 @@
         "uuid": "52b1b5de-c493-4cfe-b90b-d072cb2fb98d"
       }
     ],
-    "used_designators": "L1-10,D1-3,#PWR1-81,C1-51,SW1,H1-4,R1-21,J1-8,TP1-15,U1-8,Y1-3,FL1,ANT1-2,LoRa_MISO1,LoRaMOSI1,LoRaSCK1",
+    "used_designators": "L1-10,D1-3,#PWR1-88,C1-51,SW1,H1-4,R1-21,J1-9,TP1-15,U1-8,Y1-3,FL1,ANT1-2,LoRa_MISO1,LoRaMOSI1,LoRaSCK1",
     "variants": []
   },
   "sheets": [

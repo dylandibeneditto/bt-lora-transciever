@@ -7,7 +7,7 @@
 	(title_block
 		(title "USB-C 2.0 and ESD")
 		(date "2026-10-09")
-		(rev "2")
+		(rev "3")
 		(company "Dylan DiBeneditto")
 	)
 	(lib_symbols

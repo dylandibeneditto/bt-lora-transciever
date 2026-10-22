@@ -7,7 +7,7 @@
 	(title_block
 		(title "915MHz LoRa Modem")
 		(date "2026-10-09")
-		(rev "2")
+		(rev "3")
 		(company "Dylan DiBeneditto")
 	)
 	(lib_symbols
@@ -3940,7 +3940,7 @@
 	)
 	(global_label "DIO1"
 		(shape input)
-		(at 199.39 35.56 180)
+		(at 228.6 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3950,7 +3950,7 @@
 		)
 		(uuid "7d841ba0-cb8f-4089-9011-a0e2850e6b01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.99 35.56 0)
+			(at 221.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4200,7 +4200,7 @@
 	)
 	(hierarchical_label "DIO1"
 		(shape bidirectional)
-		(at 199.39 35.56 0)
+		(at 228.6 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
