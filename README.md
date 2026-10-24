@@ -1,8 +1,8 @@
 # bt-lora-transciever
 
-![layout]("Layout.png")
-![Front 3D]("Front_3D.png")
-![Back 3D]("Back_3D.png")
+![layout](Layout.png)
+![Front 3D](Front_3D.png)
+![Back 3D](Back_3D.png)
 
 ## SX1262 (LoRa)
 (datasheet)
