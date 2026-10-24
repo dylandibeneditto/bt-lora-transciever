@@ -1,5 +1,9 @@
 # bt-lora-transciever
 
+![layout]("Layout.png")
+![Front 3D]("Front_3D.png")
+![Back 3D]("Back_3D.png")
+
 ## SX1262 (LoRa)
 (datasheet)
 https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/RQ000008nKCH/hp2iKwMDKWl34g1D3LBf_zC7TGBRIo2ff5LMnS8r19s
